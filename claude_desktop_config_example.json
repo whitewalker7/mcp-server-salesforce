@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "salesforce": {
+      "command": "npx",
+      "args": ["-y", "@tsmztech/mcp-server-salesforce"],
+      "env": {
+        "SALESFORCE_CONNECTION_TYPE": "User_Password",
+        "SALESFORCE_USERNAME": "your_salesforce_username@company.com",
+        "SALESFORCE_PASSWORD": "your_password",
+        "SALESFORCE_TOKEN": "your_security_token",
+        "SALESFORCE_INSTANCE_URL": "https://login.salesforce.com"
+      }
+    }
+  }
+}
